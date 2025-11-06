@@ -10,7 +10,7 @@ public class Activity2 extends AppCompatActivity   {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_actividad2);
+        setContentView(R.layout.prueba1_linearlayout);
         Bundle b = getIntent().getExtras();
         Log.i("Datos", b.getString("Surname"));
 
